@@ -16,14 +16,7 @@
 
 html { height: 100%;}
 #container {
-    display: grid;
-    grid-template-areas:
-    'hd hd'
-    'mn as'
-    'as mn'
-    'mn as'
-    'ft ft';
-    height:100%;
+
 }
 
 #aboutheader {
@@ -40,6 +33,7 @@ grid-area: as;
 
 #aboutmain {
 grid-area: mn;
+height:30rem;
 }
 
 #aboutfooter {
