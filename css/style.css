@@ -14,9 +14,13 @@
   box-sizing: border-box;
 }
 
+#indexsection h2,
+#indexsection p {
+  background-color: rgba(150, 150, 150, 0.397);
+}
+
 html { height: 100%;}
 #container {
-
 }
 
 #aboutheader {
@@ -33,7 +37,7 @@ height:100%;
 
 #aboutmain {
 grid-area: mn;
-height:120rem;
+height:90rem;
 }
 
 #aboutfooter {
@@ -57,8 +61,9 @@ color: #fff;
 #aboutcontainer3 {
 width: 100%; 
 box-sizing: border-box;
-padding: 20px;
-margin: 5px;
+padding: 30px;
+padding-top: 5rem;
+padding-bottom: 5rem;
 border: 1px solid #cccccc00;
 display: flex;
 align-items: center;
@@ -70,6 +75,11 @@ align-items: center;
 font-family: Poppins;
 }
 
+#aboutcontainer2 p,
+#aboutcontainer2 h2 {
+  color:#fff;
+}
+
 
 #aboutcontainer1,
 #aboutcontainer3 {
@@ -78,13 +88,14 @@ flex-direction: row-reverse;
 
 #aboutcontainer2 {
 flex-direction: row;
+background-color: #333
 }
 
 #aboutcontainer1 img,
 #aboutcontainer2 img,
 #aboutcontainer3 img {
-max-width: 100%;
-height: 30rem;
+max-width: 50%;
+height: 20rem;
 margin-right: 20px; 
 }
 
@@ -103,11 +114,11 @@ margin-bottom: 10px;
 #chatbody {
   margin: 0;
   padding: 0;
-  min-height: 1vh;
+  min-height: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(../img/fox.jpg) center/cover no-repeat;
+  background: url(../img/fox.jpg) center/cover repeat;
 }
 
 nav {
@@ -166,7 +177,7 @@ header a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 40rem;
+  height: 1rem;
 }
 
 main h2 {
